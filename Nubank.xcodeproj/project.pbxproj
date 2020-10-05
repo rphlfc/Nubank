@@ -11,6 +11,11 @@
 		64B171632528CBE7005FDD7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171622528CBE7005FDD7B /* ContentView.swift */; };
 		64B171652528CBEC005FDD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B171642528CBEC005FDD7B /* Assets.xcassets */; };
 		64B171682528CBEC005FDD7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B171672528CBEC005FDD7B /* Preview Assets.xcassets */; };
+		64B171722528D705005FDD7B /* AccountMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171712528D705005FDD7B /* AccountMenuView.swift */; };
+		64B171762528D7B0005FDD7B /* AccountInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171752528D7B0005FDD7B /* AccountInfoView.swift */; };
+		64B171792528DECF005FDD7B /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171782528DECF005FDD7B /* MainMenuView.swift */; };
+		64B1717C2528DEF7005FDD7B /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1717B2528DEF7005FDD7B /* BalanceView.swift */; };
+		64EDDB3C252A9E830049D4F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDB3B252A9E830049D4F4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		64B171642528CBEC005FDD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B171672528CBEC005FDD7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64B171692528CBEC005FDD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B171712528D705005FDD7B /* AccountMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountMenuView.swift; sourceTree = "<group>"; };
+		64B171752528D7B0005FDD7B /* AccountInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountInfoView.swift; path = Nubank/AccountInfoView.swift; sourceTree = SOURCE_ROOT; };
+		64B171782528DECF005FDD7B /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainMenuView.swift; path = Nubank/MainMenuView.swift; sourceTree = SOURCE_ROOT; };
+		64B1717B2528DEF7005FDD7B /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BalanceView.swift; path = Nubank/BalanceView.swift; sourceTree = SOURCE_ROOT; };
+		64EDDB3B252A9E830049D4F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 		64B171542528CBE7005FDD7B = {
 			isa = PBXGroup;
 			children = (
+				64EDDB3B252A9E830049D4F4 /* README.md */,
 				64B1715F2528CBE7005FDD7B /* Nubank */,
 				64B1715E2528CBE7005FDD7B /* Products */,
 			);
@@ -52,6 +63,7 @@
 		64B1715F2528CBE7005FDD7B /* Nubank */ = {
 			isa = PBXGroup;
 			children = (
+				64B171702528D6F6005FDD7B /* Views */,
 				64B171602528CBE7005FDD7B /* NubankApp.swift */,
 				64B171622528CBE7005FDD7B /* ContentView.swift */,
 				64B171642528CBEC005FDD7B /* Assets.xcassets */,
@@ -67,6 +79,17 @@
 				64B171672528CBEC005FDD7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64B171702528D6F6005FDD7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64B1717B2528DEF7005FDD7B /* BalanceView.swift */,
+				64B171782528DECF005FDD7B /* MainMenuView.swift */,
+				64B171752528D7B0005FDD7B /* AccountInfoView.swift */,
+				64B171712528D705005FDD7B /* AccountMenuView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EDDB3C252A9E830049D4F4 /* README.md in Resources */,
 				64B171682528CBEC005FDD7B /* Preview Assets.xcassets in Resources */,
 				64B171652528CBEC005FDD7B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B171792528DECF005FDD7B /* MainMenuView.swift in Sources */,
+				64B171762528D7B0005FDD7B /* AccountInfoView.swift in Sources */,
 				64B171632528CBE7005FDD7B /* ContentView.swift in Sources */,
+				64B1717C2528DEF7005FDD7B /* BalanceView.swift in Sources */,
+				64B171722528D705005FDD7B /* AccountMenuView.swift in Sources */,
 				64B171612528CBE7005FDD7B /* NubankApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
